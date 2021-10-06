@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+</head>
+<body> 
+  <main> 
+    <div class="main-img-cont-mobile"> 
+      <img alt="an image of a woman online" class="main-img-mobile" src="images/illustration-woman-online-mobile.svg">
+    </div> 
+    <div class="pattern-img-cont-mobile">
+      <img alt="an image of a pattern" class="pattern-img-mobile" src="images/bg-pattern-mobile.svg">
+    </div>
+    <h1>
+      FAQ
+    </h1>
+    <div class="faq-btn-cont">
+      <div id="faq-btn-1">
+        <div class="btn-cont1">
+          <button id="question1" onclick="show_hide_faq1()">
+            How many team members can I invite?            
+          </button>
+          <img alt="" role="presenation" id="open-arrow1" src="images/icon-arrow-down.svg">
+        </div>
+        <p id="faq-answer1">
+          You can invite up to 2 additional users on the Free plan. There is no limit on 
+          team members for the Premium plan.
+        </p>
+      </div>
+      <div id="faq-btn-2">
+        <div class="btn-cont2">
+          <button id="question2" onclick="show_hide_faq2()">
+            What is the maximum file upload size?
+          </button>
+          <img alt="" role="presenation" id="open-arrow2" src="images/icon-arrow-down.svg">
+        </div>
+        <p id="faq-answer2">
+          No more than 2GB. All files in your account must fit your allotted storage space.
+        </p>
+      </div>
+      <div id="faq-btn-3">
+        <div class="btn-cont3">
+          <button id="question3" onclick="show_hide_faq3()">
+            How do I reset my password?
+          </button>
+          <img alt="" role="presenation" id="open-arrow3" src="images/icon-arrow-down.svg">
+        </div>
+        <p id="faq-answer3">
+          Click “Forgot password” from the login page or “Change password” from your profile page.
+          A reset link will be emailed to you.
+        </p>
+      </div>
+      <div id="faq-btn-4">
+        <div class="btn-cont4">
+          <button id="question4" onclick="show_hide_faq4()">
+            Can I cancel my subscription?
+          </button>
+          <img alt="" role="presenation" id="open-arrow4" src="images/icon-arrow-down.svg">
+        </div>
+        <p id="faq-answer4">
+          Yes! Send us a message and we’ll process your request no questions asked.
+        </p>
+      </div>
+      <div id="faq-btn-5">
+        <div class="btn-cont5">
+          <button id="question5" onclick="show_hide_faq5()">
+            Do you provide additional support?  
+          </button>
+          <img alt="" role="presenation" id="open-arrow5" src="images/icon-arrow-down.svg">
+        </div>
+        <p id="faq-answer5">
+          Chat and email support is available 24/7. Phone lines are open during normal business hours.
+        </p>
+      </div>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+<script src="main.js"></script>
+</html>
