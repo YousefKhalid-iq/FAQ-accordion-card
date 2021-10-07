@@ -12,18 +12,18 @@
 </head>
 <body> 
   <main> 
-    <section class="images-section-mobile">
+    <div class="images-section-mobile">
       <div class="main-img-cont-mobile"> 
         <img alt="an image of a woman online" class="main-img-mobile" src="images/illustration-woman-online-mobile.svg">
       </div> 
       <div class="pattern-img-cont-mobile">
         <img alt="an image of a pattern" class="pattern-img-mobile" src="images/bg-pattern-mobile.svg">
       </div>
-    </section>
-    <section class="images-section-desktop">
+    </div>
+    <div class="images-section-desktop">
       <img alt="an image of a woman online" class="main-img-desktop" src="images/illustration-woman-online-desktop.svg">
-      <img role="presentation" alt="" class="box-img" src="images/illustration-box-desktop.svg">
-    </section>
+      <img aria-label="hidden" alt="" class="box-img" src="images/illustration-box-desktop.svg">
+    </div>
     <section class="content-section">
       <div class="text-cont">
         <h1>
@@ -35,7 +35,7 @@
               <button id="question1" onclick="show_hide_faq1()">
                 How many team members can I invite?            
               </button>
-              <img alt="" role="presenation" id="open-arrow1" src="images/icon-arrow-down.svg">
+              <img alt="" role="presentation" id="open-arrow1" src="images/icon-arrow-down.svg">
             </div>
             <p id="faq-answer1">
               You can invite up to 2 additional users on the Free plan. There is no limit on 
@@ -47,7 +47,7 @@
               <button id="question2" onclick="show_hide_faq2()">
                 What is the maximum file upload size?
               </button>
-              <img alt="" role="presenation" id="open-arrow2" src="images/icon-arrow-down.svg">
+              <img alt="" role="presentation" id="open-arrow2" src="images/icon-arrow-down.svg">
             </div>
             <p id="faq-answer2">
               No more than 2GB. All files in your account must fit your allotted storage space.
@@ -58,7 +58,7 @@
               <button id="question3" onclick="show_hide_faq3()">
                 How do I reset my password?
               </button>
-              <img alt="" role="presenation" id="open-arrow3" src="images/icon-arrow-down.svg">
+              <img alt="" role="presentation" id="open-arrow3" src="images/icon-arrow-down.svg">
             </div>
             <p id="faq-answer3">
               Click “Forgot password” from the login page or “Change password” from your profile page.
@@ -70,7 +70,7 @@
               <button id="question4" onclick="show_hide_faq4()">
                 Can I cancel my subscription?
               </button>
-              <img alt="" role="presenation" id="open-arrow4" src="images/icon-arrow-down.svg">
+              <img alt="" role="presentation" id="open-arrow4" src="images/icon-arrow-down.svg">
             </div>
             <p id="faq-answer4">
               Yes! Send us a message and we’ll process your request no questions asked.
@@ -81,7 +81,7 @@
               <button id="question5" onclick="show_hide_faq5()">
                 Do you provide additional support?  
               </button>
-              <img alt="" role="presenation" id="open-arrow5" src="images/icon-arrow-down.svg">
+              <img alt="" role="presentation" id="open-arrow5" src="images/icon-arrow-down.svg">
             </div>
             <p id="faq-answer5">
               Chat and email support is available 24/7. Phone lines are open during normal business hours.
@@ -91,10 +91,12 @@
       </div>
     </section>
   </main>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
 </body>
 <script src="main.js"></script>
 </html>
